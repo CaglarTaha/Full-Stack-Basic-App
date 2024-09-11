@@ -1,0 +1,19 @@
+components:
+  schemas:
+    Base:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: The unique identifier for the item
+        createDate:
+          type: string
+          format: date-time
+          description: The timestamp when the item was created
+        updateDate:
+          type: string
+          format: date-time
+          description: The timestamp when the item was last updated
+        active:
+          type: boolean
+          description: Indicates whether the item is active or not

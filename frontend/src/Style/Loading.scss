@@ -1,0 +1,21 @@
+.loading-container {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo2 {
+    width: 200px;
+    border-radius: 10px;
+    animation: pulse 1s infinite alternate; /* Animasyonu logoya uygula */
+  }
+
+  @keyframes pulse {
+    from {
+      opacity: 1; /* Başlangıç değeri */
+    }
+    to {
+      opacity: 0.5; /* Bitiş değeri */
+    }
+  }

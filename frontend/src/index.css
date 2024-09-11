@@ -1,0 +1,12 @@
+:root {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.ant-form-item-tooltip{
+  filter: invert(67%) sepia(89%) saturate(7492%) hue-rotate(346deg) brightness(84%) contrast(146%);
+}
+.ant-upload {
+color: white;
+}
